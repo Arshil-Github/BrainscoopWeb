@@ -1,0 +1,58 @@
+.container{
+    background-color: rgb(0, 0, 0);
+
+    height: 10dvh;
+    width: 100%;
+
+    color: white;
+    position: fixed;
+}
+.gradientBar{
+    background: linear-gradient(to right, rgb(243, 17, 255),rgb(227, 40, 40), rgb(255, 145, 0));
+    height: 30%;
+
+    position: relative;
+}
+.logoContainer{
+    width: 100%;
+    height: 12dvh;
+
+    position: absolute;
+    top: 0;
+    margin-top: -25px;
+    text-align: center;
+}
+.logoBg{
+    width: 12dvh;
+    height: 12dvh;
+    margin-right: auto;
+    margin-left: auto;
+    background: linear-gradient(to top, rgb(212, 44, 44), rgb(185, 109, 28));
+    border-radius: 50% 50% 50% 50%;
+}
+.logo{
+    width: 9dvh;
+    height: 9dvh;
+    margin-right: auto;
+    margin-left: auto;
+
+    margin-top: 25px;
+}
+.writeIcon{
+    color: white;
+    background-color: rgba(126, 126, 126, 0.082);
+    border: none;
+    border-radius: 3px;
+    padding: 3px;
+
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.5px;
+
+    z-index: 10;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 0px 20px;
+}

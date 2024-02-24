@@ -1,0 +1,7 @@
+.body{
+  background-color: rgb(0, 0, 0);
+  min-height: 100dvh;
+
+  padding-top: 100px;
+  color: white;
+}
