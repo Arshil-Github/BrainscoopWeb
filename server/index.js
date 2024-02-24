@@ -8,14 +8,14 @@ const PORT = 3000;
 
 app.use(bodyParser.json());
 app.use(cors({
-    origin: ["http://localhost:5173"],
+    origin: ["https://brainscoop-web.vercel.app"],
     methods: ["POST", "GET"],
     credentials: true,
 }))
 
 
 app.use((req, res, next) => {
-    res.setHeader('Access-Control-Allow-Origin', 'http://localhost:5173'); // Replace with your allowed origin(s)
+    res.setHeader('Access-Control-Allow-Origin', 'https://brainscoop-web.vercel.app'); // Replace with your allowed origin(s)
     res.setHeader('Access-Control-Allow-Methods', 'POST, GET, OPTIONS'); // Include all methods used by your frontend
     res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization'); // Add headers sent by your frontend
     res.setHeader('Access-Control-Allow-Credentials', 'true'); // Allow sending cookies (if applicable)

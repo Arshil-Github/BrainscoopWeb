@@ -6,7 +6,7 @@ import PostView from './Components/PostView/PostView'
 import style from './App.module.css'
 import { useEffect, useState } from 'react'
 
-const fetchServer = "http://localhost:3000"
+const fetchServer = "https://brainscoopweb.onrender.com"
 
 function App() {
 
