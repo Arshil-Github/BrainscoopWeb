@@ -11,7 +11,7 @@ const fetchServer = "https://brainscoopweb.onrender.com"
 function App() {
 
   const [pageString, setPageString] = useState("home");
-  const [currentPage, setCurrentPage] = useState(<HomePage/>);
+  const [currentPage, setCurrentPage] = useState(<div/>);
 
   useEffect(()=>{
     if(pageString == "home")
